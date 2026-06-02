@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-sacale=1.0">
-    <title>Distruibuidora Yened</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distribuidora Yened</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <nav>
         <div class="nav-logo">
-        <img src="img/turquia.png" alt="Bandera turquia" />
+            <img src="img/turquia.png" alt="Bandera turquia" />
         </div>
         <ul class="nav-links">
             <li><a href="#categorias">Productos</a></li>
@@ -17,24 +17,30 @@
             <li><a href="#nosotros">Nosotros</a></li>
             <li><a href="#contacto" class="nav-cta">Pedir ahora</a></li>
         </ul>
-    </nav> 
+        <!-- menu para mobile -->
+        <button class="nav-hamburger" aria-label="Abrir menú" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
     <section class="hero">
         <div class="hero-inner">
             <div class="hero-text">
-            <div class="hero-eyebrow">CHICOANA - EL CARRIL</div>
-                <div class="nav-logo1">
-                <img src="img/logo1.png" alt="Distruibuidora Yened" />
+                <div class="hero-eyebrow">CHICOANA - EL CARRIL</div>
+                <div class="logo-principal">
+                    <img src="img/logo1.png" alt="Distribuidora Yened" />
                 </div>
-            <p class="hero-sub">
-                Tu distribuidora de confianza en comestible, bebidas y productos de limpieza.
-                Entrega rápida.
-            </p>
-            <div class="hero-btns">
-                <a href="#contacto" class="btn btn-primary">Hacer un pedido</a>
-                <a href="#categorias" class="btn btn-secondary">Ver productos</a>
+                <p class="hero-sub">
+                    Tu distribuidora de confianza en comestibles, bebidas y productos de limpieza.
+                    Entrega rápida.
+                </p>
+                <div class="hero-btns">
+                    <a href="#contacto" class="btn btn-primary">Hacer un pedido</a>
+                    <a href="#categorias" class="btn btn-secondary">Ver productos</a>
+                </div>
             </div>
-            </div>
-    </section>   
+        </div>
+    </section>
 
     <section class="section" id="categorias">
         <div class="section-header">
@@ -43,28 +49,33 @@
         </div>
         <div class="strip2">
             <div class="strip-banner">
-                <span><img src="categoria/banner.JPG" alt="mercaderia" /></span>
-                <span><img src="categoria/banner1.JPG" alt="mercaderia" /></span>
-                <span><img src="categoria/banner2.JPG" alt="mercaderia" /></span>
-                <span><img src="categoria/banner3.JPG" alt="mercaderia" /></span>
-                <span><img src="categoria/banner4.JPG" alt="mercaderia" /></span>
-                <span><img src="categoria/banner3.JPG" alt="mercaderia" /></span>
-                <span><img src="categoria/banner2.JPG" alt="mercaderia" /></span>
-                <span><img src="categoria/banner1.JPG" alt="mercaderia" /></span>
-                <span><img src="categoria/banner.JPG" alt="mercaderia" /></span>
+                <span><img src="categoria/banner.jpg" alt="Categoría de mercadería" /></span>
+                <span><img src="categoria/banner1.jpg" alt="Categoría de mercadería" /></span>
+                <span><img src="categoria/banner2.jpg" alt="Categoría de mercadería" /></span>
+                <span><img src="categoria/banner3.jpg" alt="Categoría de mercadería" /></span>
+            </div>
+        </div>
+        <div class="strip2">
+            <div class="strip-banner">
+                <span><img src="categoria/banner4.jpg" alt="Categoría de mercadería" /></span>
+                <span><img src="categoria/banner5.jpg" alt="Categoría de mercadería" /></span>
+                <span><img src="categoria/banner6.jpg" alt="Categoría de mercadería" /></span>
+                <span><img src="categoria/banner7.jpg" alt="Categoría de mercadería" /></span>
             </div>
         </div>
     </section>
+
     <section class="oferta slide-left" id="ofertas">
         <h2>🔥 Ofertas de la Semana</h2>
         <p>Nuevas promociones cada semana. ¡No te las pierdas!</p>
         <a href="#contacto" class="btn btn-primary" style="display:inline-flex;">
             Consultá las ofertas por WhatsApp
         </a>
-        <div class="nav-logo2">
-            <img src="img/logo2.png" alt="Distruibuidora Yened" />
-            </div>
+        <div class="logo-oferta">
+            <img src="img/logo2.png" alt="Distribuidora Yened" />
+        </div>
     </section>
+
     <section class="section why" id="nosotros">
         <div class="section-header">
             <h2>¿Por qué elegirnos?</h2>
@@ -72,35 +83,37 @@
         </div>
         <div class="why-grid">
             <div class="why-card">
-            <div class="why-icon"> <img src="ico/entrega.png" alt="envio"></div>
-            <h3>Entrega Rápida</h3>
-            <p>Llevamos tu pedido directamente a tu negocio o domicilio.</p>
+                <div class="why-icon"><img src="ico/entrega.png" alt="Ícono de envío"></div>
+                <h3>Entrega Rápida</h3>
+                <p>Llevamos tu pedido directamente a tu negocio o domicilio.</p>
             </div>
             <div class="why-card">
-            <div class="why-icon"> <img src="ico/dinero.png" alt="dinero"></div>
-            <h3>Precio Mayorista</h3>
-            <p>Los mejores precios del mercado para que vos ganes más.</p>
+                <div class="why-icon"><img src="ico/dinero.png" alt="Ícono de dinero"></div>
+                <h3>Precio Mayorista</h3>
+                <p>Los mejores precios del mercado para que vos ganes más.</p>
             </div>
             <div class="why-card">
-            <div class="why-icon"> <img src="ico/carro.png" alt="carrito"></div>
-            <h3>Gran Variedad</h3>
-            <p>Mercadería, bebidas y limpieza. Todo en un solo pedido.</p>
+                <div class="why-icon"><img src="ico/carro.png" alt="Ícono de carrito"></div>
+                <h3>Gran Variedad</h3>
+                <p>Mercadería, bebidas y limpieza. Todo en un solo pedido.</p>
             </div>
             <div class="why-card">
-            <div class="why-icon"> <img src="ico/favorito.png" alt="favorito"></div>
-            <h3>Confianza</h3>
-            <p>Años de trayectoria y clientes satisfechos nos respaldan.</p>
+                <div class="why-icon"><img src="ico/favorito.png" alt="Ícono de favorito"></div>
+                <h3>Confianza</h3>
+                <p>Años de trayectoria y clientes satisfechos nos respaldan.</p>
             </div>
         </div>
     </section>
+
     <div class="strip">
         <div class="strip-inner">
             <span>Distribuyendo confianza, impulsando tu crecimiento</span>
-            <span>Una manera de cuiar tu bolsillo</span>
+            <span>Una manera de cuidar tu bolsillo</span>
             <span>Distribuyendo confianza, impulsando tu crecimiento</span>
-            <span>Una manera de cuiar tu bolsillo</span>
+            <span>Una manera de cuidar tu bolsillo</span>
         </div>
     </div>
+
     <section id="contacto">
         <div class="contact-section">
             <h2>Contactanos <span>Ahora</span></h2>
@@ -109,15 +122,15 @@
                 Escribinos por WhatsApp
             </a>
             <div class="ubi">
-            <p>Nuetra Ubicacion.</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d225.80338227117824!2d-65.53083168977709!3d-25.10679916858612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1778022518218!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>Nuestra Ubicación.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d225.80338227117824!2d-65.53083168977709!3d-25.10679916858612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1778022518218!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ubicación Distribuidora Yened"></iframe>
             </div>
         </div>
     </section>
 
-<footer>
-        <p>© 2026 <strong>Distribuidora Yened</strong> Landing pages:@_tapicarlo.exe</p>
-</footer>    
+    <footer>
+        <p>© 2026 <strong>Distribuidora Yened</strong> Landing pages: @_tapicarlo.exe</p>
+    </footer>
+
 </body>
-</head>
 </html>
