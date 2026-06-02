@@ -305,6 +305,69 @@ footer strong { color: var(--yellow); }
     .nav-links { display: none; }
     .why-grid { grid-template-columns: 1fr; }
     .contact-cards { grid-template-columns: 1fr; }
-}
+    .nav-links { display: none; }
+    .why-grid { grid-template-columns: 1fr; }
+    .contact-cards { grid-template-columns: 1fr; }
 
+    /* HERO */
+    .hero {
+        padding: 2rem 1rem;
+        min-height: auto;
+    }
+    .hero-inner {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .nav-logo1 img {
+        max-width: 280px;
+    }
+    .hero-btns {
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* SECCIONES */
+    .section {
+        padding: 2.5rem 1rem;
+    }
+    .section-header h2 {
+        font-size: 1.6rem;
+    }
+
+    /* BANNER DE IMÁGENES */
+    .strip-banner img {
+        width: 120px;
+        height: auto;
+    }
+
+    /* OFERTA */
+    .oferta {
+        padding: 2.5rem 1rem;
+    }
+    .nav-logo2 img {
+        max-width: 200px;
+        width: 100%;
+    }
+
+    /* WHY ICONS */
+    .why-icon img {
+        width: 80px;
+    }
+
+    /* MAPA */
+    iframe {
+        width: 100%;
+        height: 220px;
+    }
+
+    /* FOOTER */
+    footer {
+        font-size: .75rem;
+        padding: 1rem;
+    }
+}
 
