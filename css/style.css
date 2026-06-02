@@ -260,17 +260,34 @@ nav {
     background: #25D366;
     color: var(--white);
     border: none;
-    border-radius: 10px;
-    padding: 1rem 2rem;
-    font-size: 1.1rem;
-    font-weight: 900;
+    border-radius: 20px;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
     cursor: pointer;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: .7rem;
+    gap: .1rem;
     text-decoration: none;
     transition: filter .2s;
+}
+.wa-btn1 {
+    background: #25D366;
+    color: var(--white);
+    border: none;
+    border-radius: 20px;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .1rem;
+    text-decoration: none;
+    transition: filter .2s;
+    margin-top: 1rem;
 }
 .wa-btn:hover { filter: brightness(1.1); }
 .ubi {
